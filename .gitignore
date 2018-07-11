@@ -1,0 +1,4 @@
+ecs/src/ecs_test/Debug/
+ecs/src/Debug/ecs_test.exe
+*.opendb
+*.db

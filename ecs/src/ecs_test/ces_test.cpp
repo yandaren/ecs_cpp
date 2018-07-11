@@ -44,7 +44,7 @@ void entity_comp_test()
     context ecs_ctx;
 
     entity* en = ecs_ctx.entity_admin.create_entity();
-    printf("en id: %d\n", en->id());
+    printf("en id: %lld\n", en->id());
     bool has_entity = en->has_component<position>();
     printf("has position component %d\n", has_entity);
     en->add_component<position>(1, 2, 3)
